@@ -12,4 +12,4 @@ BEGIN
   JOIN Products ON ProductInventory.ProductID = Products.ID
   WHERE ProductInventory.WarehouseID = WH_ID;
 END //
-DELIMITER;
+DELIMITER ;
